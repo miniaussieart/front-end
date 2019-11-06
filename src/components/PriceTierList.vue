@@ -36,98 +36,64 @@ export default {
         description: 'Choose your style and render! Additional fee for multiple characters and complex designs.',
         examples: [
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435193/otters/d4ixxx1whrcxjrywizmw.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas22_orig.png',
           },
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435175/otters/fwbtiixp54frxzmgteea.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/becderp_orig.png',
           },
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570434515/otters/nyyrddarkk41wa6gtimr.jpg',
-          },
-        ],
-      },
-      {
-        id: Math.random(),
-        category: 'Chibi Headshots',
-        minimumPrice: 'Starting at $8',
-        description: 'Choose your style and render! Additional fee for multiple characters and complex designs.',
-        examples: [
-          {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435193/otters/d4ixxx1whrcxjrywizmw.jpg',
-          },
-          {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435175/otters/fwbtiixp54frxzmgteea.jpg',
-          },
-          {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570434515/otters/nyyrddarkk41wa6gtimr.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas21_orig.png',
           },
         ],
       },
       {
         id: Math.random(),
-        category: 'Chibi Headshots',
-        minimumPrice: 'Starting at $8',
+        category: 'Tsum Chibi',
+        minimumPrice: 'Starting at $15',
         description: 'Choose your style and render! Additional fee for multiple characters and complex designs.',
         examples: [
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435193/otters/d4ixxx1whrcxjrywizmw.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/tay2_orig.png',
           },
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435175/otters/fwbtiixp54frxzmgteea.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/beans_orig.png',
           },
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570434515/otters/nyyrddarkk41wa6gtimr.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas43_orig.png',
           },
         ],
       },
       {
         id: Math.random(),
-        category: 'Chibi Headshots',
-        minimumPrice: 'Starting at $8',
+        category: 'Chibi',
+        minimumPrice: 'Starting at $25',
         description: 'Choose your style and render! Additional fee for multiple characters and complex designs.',
         examples: [
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435193/otters/d4ixxx1whrcxjrywizmw.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas19_orig.png',
           },
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435175/otters/fwbtiixp54frxzmgteea.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas12_orig.png',
           },
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570434515/otters/nyyrddarkk41wa6gtimr.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/gypsyraccoon_orig.png',
           },
         ],
       },
       {
         id: Math.random(),
-        category: 'Chibi Headshots',
-        minimumPrice: 'Starting at $8',
+        category: 'Animated Chibi',
+        minimumPrice: 'Starting at $40',
         description: 'Choose your style and render! Additional fee for multiple characters and complex designs.',
         examples: [
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435193/otters/d4ixxx1whrcxjrywizmw.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/340485_orig.gif',
           },
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435175/otters/fwbtiixp54frxzmgteea.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/lynxsero_orig.gif',
           },
           {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570434515/otters/nyyrddarkk41wa6gtimr.jpg',
-          },
-        ],
-      },
-      {
-        id: Math.random(),
-        category: 'Chibi Headshots',
-        minimumPrice: 'Starting at $8',
-        description: 'Choose your style and render! Additional fee for multiple characters and complex designs.',
-        examples: [
-          {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435193/otters/d4ixxx1whrcxjrywizmw.jpg',
-          },
-          {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570435175/otters/fwbtiixp54frxzmgteea.jpg',
-          },
-          {
-            src: 'https://res.cloudinary.com/dkjk6wkyc/image/upload/v1570434515/otters/nyyrddarkk41wa6gtimr.jpg',
+            src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/bean_orig.gif',
           },
         ],
       },
