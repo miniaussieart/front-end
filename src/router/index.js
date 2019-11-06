@@ -1,6 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+
 import Home from '../views/Home.vue';
+
+const About = () => import(/* webpackChunkName: "about" */ '../views/About.vue');
+const Prices = () => import(/* webpackChunkName: "prices" */ '../views/Prices.vue');
 
 Vue.use(VueRouter);
 
@@ -13,10 +17,15 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    component: About,
+  },
+  {
+    path: '/prices',
+    name: 'prices',
+    component: Prices,
+    meta: {
+      title: 'Prices | MiniAussieArt',
+    },
   },
 ];
 
@@ -24,6 +33,12 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
+});
+
+// Update the document title
+router.beforeEach((to, _, next) => {
+  document.title = to.meta.title || 'MiniAussieArt';
+  next();
 });
 
 export default router;
