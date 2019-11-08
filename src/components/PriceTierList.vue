@@ -1,22 +1,58 @@
 <template>
   <v-container class="grey lighten-5">
+    <v-dialog
+      v-model="dialog"
+      fullscreen
+      transition="fade-transition"
+    >
+      <v-card tile dark v-on:click="dialog = false">
+        <v-img
+          :src="dialogSrc"
+          :height="window.height"
+          contain
+        >
+          <div>
+            <v-card
+              :class="`d-flex justify-center mt-6`"
+              color="transparent"
+              flat
+            >
+              <v-card
+                class="pa-2"
+                color="rgb(0, 0, 0, 0.7)"
+                outlined
+              >
+                {{ dialogText }}
+              </v-card>
+            </v-card>
+          </div>
+        </v-img>
+      </v-card>
+    </v-dialog>
+
     <v-row>
       <v-col
         v-for="tier in tierList"
         :key="tier.id"
         cols="12"
-        sm="6"
+        md="6"
       >
         <h1>{{ tier.category }}</h1>
         <p>{{ tier.minimumPrice }}</p>
         <p>{{ tier.description }}</p>
-        <v-carousel>
-          <v-carousel-item
+        <v-row>
+          <v-col
             v-for="example in tier.examples"
             :key="example.id"
-            :src="example.src"
-          ></v-carousel-item>
-        </v-carousel>
+            cols="4"
+          >
+            <v-img
+              :src="example.src"
+              @click="openDialog(example)"
+            >
+            </v-img>
+          </v-col>
+        </v-row>
       </v-col>
     </v-row>
   </v-container>
@@ -27,6 +63,13 @@ export default {
   name: 'PriceTierList',
   data: () => ({
     count: 0,
+    dialog: false,
+    dialogSrc: '',
+    dialogText: '',
+    window: {
+      width: 0,
+      height: 0,
+    },
     alert: 'Prices will increase November 2019',
     tierList: [
       {
@@ -37,6 +80,7 @@ export default {
         examples: [
           {
             src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas22_orig.png',
+            text: 'Commissioned by DarkNightFox',
           },
           {
             src: 'https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/becderp_orig.png',
@@ -99,12 +143,28 @@ export default {
       },
     ],
   }),
+  created() {
+    window.addEventListener('resize', this.handleResize);
+    this.handleResize();
+  },
+  destroyed() {
+    window.removeEventListener('resize', this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.window.width = window.innerWidth;
+      this.window.height = window.innerHeight;
+    },
+    openDialog(example) {
+      this.dialogSrc = example.src;
+      this.dialogText = example.text || 'Chibi Headshot, One Extra Character - $15';
+      this.dialog = true;
+      this.snackbar = true;
+    },
+  },
 };
 </script>
 
 <style scoped>
-  img {
-    height: 100px;
-    max-width: 200px;
-  }
+
 </style>
