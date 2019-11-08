@@ -17,8 +17,6 @@
     </p>
     <p class="custom-style-6">WEBSITE IS CURRENTLY UNDER CONSTRUCTION</p>
 
-    <v-divider></v-divider>
-
     <PriceTierList></PriceTierList>
   </div>
 </template>
