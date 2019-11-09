@@ -1,24 +1,43 @@
 <template>
+  <v-img
+    src="https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/good-morn_orig.png"
+  >
   <div class="prices">
-    <h1 class="custom-style-1 logo text-uppercase">
-      <span>MiniAussie</span>
-        <span class="logo-red">A</span>
-        <span class="logo-blue">r</span>
-        <span class="logo-green">t</span>
-    </h1>
+    <div class="intro">
+      <v-container>
+        <v-row justify="center">
+          <v-col class="col-md-8">
+            <v-card
+              color="rgba(255, 255, 255, 0.7)"
+              flat
+              class="pa-4"
+            >
+            <h1 class="display-2 my-4 color-logo text-uppercase">
+              <span>MiniAussie</span>
+              <span class="color-logo-red">A</span>
+              <span class="color-logo-blue">r</span>
+              <span class="color-logo-green">t</span>
+            </h1>
 
-    <h2 class="custom-style-2">●COMMISSION PRICES●</h2>
-    <p class="custom-style-3">{{ alert }}</p>
-    <p class="custom-style-4">
-      All listed prices are subject to increase depending on Character Complexity.
-    </p>
-    <p class="custom-style-5">
-      Simple backgrounds are <span class="highlight-green">included</span> in all commission types.
-    </p>
-    <p class="custom-style-6">WEBSITE IS CURRENTLY UNDER CONSTRUCTION</p>
+            <h2 class="display-1 my-4">●COMMISSION PRICES●</h2>
+            <p class="body-2 intro-alert">{{ alert }}</p>
+            <p class="body-1 custom-style-4">
+              All listed prices are subject to increase depending on Character Complexity.
+            </p>
+            <p class="body-1 custom-style-5">
+              Simple backgrounds are
+              <span class="color-highlight-green">included</span>
+              in all commission types.
+            </p>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
 
     <PriceTierList></PriceTierList>
   </div>
+  </v-img>
 </template>
 
 <script>
@@ -30,65 +49,83 @@ export default {
     PriceTierList,
   },
   data: () => ({
-    alert: 'Prices will increase November 2019',
+    alert: 'Prices will increase January 2020',
+    window: {
+      width: 0,
+      height: 0,
+    },
   }),
+  created() {
+    window.addEventListener('resize', this.handleResize);
+    this.handleResize();
+  },
+  destroyed() {
+    window.removeEventListener('resize', this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.window.width = window.innerWidth;
+      this.window.height = window.innerHeight;
+    },
+  },
 };
 </script>
 
 <style scoped>
   .prices {
-    text-align: center;
+    background-size: cover;
+    background-image: url('https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/good-morn_orig.png');
+    background-attachment: fixed;
+    background-position: center;
   }
 
-  .logo {
+  .intro {
+    text-align: center;
+    height: 80vh;
+  }
+
+  .color-logo {
     color: #50c0cd;
   }
 
-  .logo-red {
+  .color-logo-red {
     color: #ef5454;
   }
 
-  .logo-blue {
+  .color-logo-blue {
     color: #4fb7e7;
   }
 
-  .logo-green {
+  .color-logo-green {
     color: #9bd33a;
   }
 
-  .highlight-green {
+  .color-highlight-green {
     color: rgb(78, 154, 8);
   }
 
-  .custom-style-1 {}
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
 
-  .custom-style-2 {
-    color: #333333;
-    font-size: 32px;
+  h2 {
+    font-size: 2em;
     font-weight: 400;
   }
 
-  .custom-style-3 {
-    color: #000000;
-    font-size: 13px;
-    font-weight: 400;
+  .intro-alert {
     text-decoration: underline;
   }
 
   .custom-style-4 {
-    color: #000000;
-    font-size: 16px;
-    font-weight: 400;
   }
 
   .custom-style-5 {
-    color: #2a2a2a;
-    font-size: 16px;
-    font-weight: 400;
     text-decoration: underline;
   }
 
-  .custom-style-6 {
+  .warning-alert {
     color: #d80000;
     font-size: 24px;
     font-weight: 700;
