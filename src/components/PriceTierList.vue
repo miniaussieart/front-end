@@ -1,61 +1,68 @@
 <template>
-  <v-container class="grey lighten-5">
-    <v-dialog
-      v-model="dialog"
-      fullscreen
-      transition="fade-transition"
-    >
-      <v-card tile dark v-on:click="dialog = false">
-        <v-img
-          :src="dialogSrc"
-          :height="window.height"
-          contain
-        >
-          <div>
-            <v-card
-              :class="`d-flex justify-center mt-6`"
-              color="transparent"
-              flat
-            >
-              <v-card
-                class="pa-2"
-                color="rgb(0, 0, 0, 0.7)"
-                outlined
-              >
-                {{ dialogText }}
-              </v-card>
-            </v-card>
-          </div>
-        </v-img>
-      </v-card>
-    </v-dialog>
-
-    <v-row>
-      <v-col
-        v-for="tier in tierList"
-        :key="tier.id"
-        cols="12"
-        md="6"
+  <div class="price-tier-list">
+    <v-container>
+      <v-dialog
+        v-model="dialog"
+        fullscreen
+        transition="fade-transition"
       >
-        <h1>{{ tier.category }}</h1>
-        <p>{{ tier.minimumPrice }}</p>
-        <p>{{ tier.description }}</p>
-        <v-row>
-          <v-col
-            v-for="example in tier.examples"
-            :key="example.id"
-            cols="4"
+        <v-card tile dark v-on:click="dialog = false">
+          <v-img
+            :src="dialogSrc"
+            :height="window.height"
+            contain
           >
-            <v-img
-              :src="example.src"
-              @click="openDialog(example)"
-            >
-            </v-img>
-          </v-col>
-        </v-row>
-      </v-col>
-    </v-row>
-  </v-container>
+            <div>
+              <v-card
+                :class="`d-flex justify-center mt-6`"
+                color="transparent"
+                flat
+              >
+                <v-card
+                  class="pa-2"
+                  color="rgb(0, 0, 0, 0.7)"
+                  outlined
+                >
+                  {{ dialogText }}
+                </v-card>
+              </v-card>
+            </div>
+          </v-img>
+        </v-card>
+      </v-dialog>
+
+      <v-row>
+        <v-col
+          v-for="tier in tierList"
+          :key="tier.id"
+          cols="12"
+          md="6"
+        >
+          <v-card>
+            <v-card-title>{{ tier.category }}</v-card-title>
+            <v-card-subtitle>{{ tier.minimumPrice }}</v-card-subtitle>
+            <v-card-text>{{ tier.description }}</v-card-text>
+            <v-row class="px-2">
+              <v-col
+                v-for="example in tier.examples"
+                :key="example.id"
+                cols="4"
+              >
+                <v-card
+                  hover
+                  outlined>
+                  <v-img
+                    :src="example.src"
+                    @click="openDialog(example)"
+                  ></v-img>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
 </template>
 
 <script>
@@ -166,5 +173,7 @@ export default {
 </script>
 
 <style scoped>
-
+.price-tier-list {
+  background: rgba(20, 20, 20, 0.7);
+}
 </style>
