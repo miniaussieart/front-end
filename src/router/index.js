@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import Home from '../views/Home.vue';
+// import Home from '../views/Home.vue';
 
 const About = () => import(/* webpackChunkName: "about" */ '../views/About.vue');
 const Prices = () => import(/* webpackChunkName: "prices" */ '../views/Prices.vue');
@@ -12,7 +12,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: Home,
+    component: Prices,
   },
   {
     path: '/about',

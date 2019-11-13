@@ -4,32 +4,68 @@
   >
   <div class="prices">
     <div class="intro">
-      <v-container>
-        <v-row justify="center">
-          <v-col class="col-md-8">
+      <v-container
+        class="fill-height"
+        fluid
+      >
+        <v-row
+          justify="center"
+        >
+          <v-col
+            cols="12"
+            md="8"
+            lg="6"
+          >
             <v-card
               color="rgba(255, 255, 255, 0.7)"
-              flat
-              class="pa-4"
+              elevation="12"
+              class="pa-6"
             >
-            <h1 class="display-2 my-4 color-logo text-uppercase">
+            <h1 class="display-1 my-4 color-logo text-uppercase">
               <span>MiniAussie</span>
               <span class="color-logo-red">A</span>
               <span class="color-logo-blue">r</span>
               <span class="color-logo-green">t</span>
             </h1>
 
-            <h2 class="display-1 my-4">●COMMISSION PRICES●</h2>
+            <h2 class="headline my-4">●COMMISSION PRICES●</h2>
             <p class="body-2 intro-alert">{{ alert }}</p>
             <p class="body-1 custom-style-4">
               All listed prices are subject to increase depending on Character Complexity.
-            </p>
-            <p class="body-1 custom-style-5">
               Simple backgrounds are
               <span class="color-highlight-green">included</span>
               in all commission types.
             </p>
             </v-card>
+          </v-col>
+        </v-row>
+        <v-row
+          justify="center"
+          class="mb-8"
+        >
+          <v-col
+            cols="12"
+            md="8"
+          >
+            <v-row>
+              <v-col
+                cols="12"
+                lg="4"
+                v-for="(test, i) in links"
+                :key="i"
+              >
+                <v-btn
+                  x-large
+                  dark
+                  target="_blank"
+                  :href="test.url"
+                  style="background-color: rgba(0, 0, 0, 0.5);"
+                >
+                  <v-icon class="mr-3">{{ test.icon }}</v-icon>
+                  {{ test.text }}
+                </v-btn>
+              </v-col>
+            </v-row>
           </v-col>
         </v-row>
       </v-container>
@@ -49,7 +85,27 @@ export default {
     PriceTierList,
   },
   data: () => ({
-    alert: 'Prices will increase January 2020',
+    alert: 'Prices will increase January 2020.',
+    links: [
+      {
+        platform: 'Patreon',
+        url: 'https://www.patreon.com/MiniAussieArt',
+        text: 'Become a Patron',
+        icon: 'mdi-patreon',
+      },
+      {
+        platform: 'Twitter',
+        url: 'https://twitter.com/MiniAussieArt',
+        text: 'Follow on Twitter',
+        icon: 'mdi-twitter',
+      },
+      {
+        platform: 'Picarto',
+        url: 'https://picarto.tv/MiniAussie',
+        text: 'Live Art Streams',
+        icon: '$picarto',
+      },
+    ],
     window: {
       width: 0,
       height: 0,
@@ -81,7 +137,7 @@ export default {
 
   .intro {
     text-align: center;
-    height: 80vh;
+    height: 100vh;
   }
 
   .color-logo {
@@ -104,31 +160,11 @@ export default {
     color: rgb(78, 154, 8);
   }
 
-  h1 {
-    font-size: 2.5em;
+  .display-1 {
     font-weight: 700;
   }
 
-  h2 {
-    font-size: 2em;
-    font-weight: 400;
-  }
-
-  .intro-alert {
-    text-decoration: underline;
-  }
-
-  .custom-style-4 {
-  }
-
-  .custom-style-5 {
-    text-decoration: underline;
-  }
-
-  .warning-alert {
-    color: #d80000;
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: underline;
+  svg {
+    max-height: 24px;
   }
 </style>
