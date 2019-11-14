@@ -31,7 +31,7 @@
             <h2 class="headline my-4">●COMMISSION PRICES●</h2>
             <p class="body-2 intro-alert">{{ alert }}</p>
             <p class="body-1 custom-style-4">
-              All listed prices are subject to increase depending on Character Complexity.
+              All listed prices are subject to increase depending on Character Complexity.<br>
               Simple backgrounds are
               <span class="color-highlight-green">included</span>
               in all commission types.
