@@ -1,7 +1,7 @@
 [
   {
     "category": "Chibi Headshot",
-    "price": "Starting at $8\n",
+    "price": "$10 each\n",
     "description": null,
     "examples": [
       {
@@ -12,22 +12,22 @@
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/becderp_orig.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas21_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/deadhoIic.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas20_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/codymcdowd2.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas34_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/OwoZeke2.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas35_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/servalien3.png"
       }
     ]
   },
   {
     "category": "Tsum Chibi",
-    "price": "$15 each ($25 for 2)\n",
+    "price": "$20 each\n",
     "description": null,
     "examples": [
       {
@@ -37,54 +37,63 @@
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/beans_orig.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas43_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/ProdigalPuppet.png"
       },
       {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas44_orig.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas45_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/mikefox.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas29_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/TheWalkingDoggo.png"
       }
     ]
   },
   {
     "category": "Chibi",
-    "price": "Simple Chibi ● $25\nChibi w/ Background ● $35\n",
-    "description": "( +$20 per additional character )\n+$5(ea) for Anthro\n",
+    "price": "Simple Chibi ● $30\nChibi w/ Background ● $40\n",
+    "description": "( +$20 per additional character )\n",
     "examples": [
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas19_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/kyu.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas12_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/scruffyote.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/gypsyraccoon_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/Ripley.png"
       },
       {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/mew4_orig.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas9_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/shadowfang92-6.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas18_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/mu.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/shika.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/RioluPup3.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/Mew7.png"
       }
     ]
   },
   {
     "category": "Animated Chibi",
-    "price": "Starting at $40\n",
+    "price": "Starts at $40\n",
     "description": "Transparency available.\n",
     "examples": [
       {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/340485_orig.gif"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/lynxsero_orig.gif"
+        "src": "https://art.miniaussie.ink/personal/OTT.gif"
       },
       {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/bean_orig.gif"
@@ -102,7 +111,7 @@
   },
   {
     "category": "Pet Commission",
-    "price": "Starting at $20\n",
+    "price": "Starts at $20\n",
     "description": "( +$15 per additional pet )\n",
     "examples": [
       {
@@ -126,102 +135,154 @@
     ]
   },
   {
+    "category": "Derp Doodle",
+    "price": "$15 each.\n",
+    "description": "Sloppy perfection\n",
+    "examples": [
+      {
+        "src": "https://art.miniaussie.ink/commissions/_natedraws_.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/BelieveShadows.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/shadowfang92-3.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/DieselDeer.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/otthi.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/SAME%20DICK.png"
+      }
+    ]
+  },
+  {
     "category": "Headshot",
-    "price": "Sketch ● $20\nUncolored ● $30\nColored ● $35\n",
-    "description": "( detailed backgrounds start at $8+ )\n",
+    "price": "Sketch ● $15\nColored Sketch ● $25\nFlat Color ● $35\n",
+    "description": "( detailed backgrounds start at $8+ )\n+$10 for Anthro/Bust\n",
     "examples": [
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/redraccoonuk_orig.png"
+        "src": "https://art.miniaussie.ink/personal/confuseych.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/ych1_orig.png"
+        "src": "https://art.miniaussie.ink/personal/ych6.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/shadowfang92-2_1_orig.png"
+        "src": "https://art.miniaussie.ink/personal/ych1.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/owozeke_orig.png"
+        "src": "https://art.miniaussie.ink/personal/ledogoggo.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/mew5_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/zencollie2.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/pixelpelt_orig.png"
-      }
-    ]
-  },
-  {
-    "category": "Plush Doodle",
-    "price": "Sketch ● $20\nUncolored ● $25\nColored ● $35\n",
-    "description": "( +$20 per additional character )\n",
-    "examples": [
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas39_1_orig.png"
+        "src": "https://art.miniaussie.ink/prizes/TooSpookii.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/dottipink_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/wollfbite.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/cheeki_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/Krissi2197.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/greensaber_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/kewlie_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/dustyplush_orig.png"
-      }
-    ]
-  },
-  {
-    "category": "Flat Color (Full Body)",
-    "price": "Simple flat color ● $55\nFlat color w/ BG scene ● $85\n",
-    "description": "( +$40 per additional character )\n+$20 for Anthro\n",
-    "examples": [
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/the-boy4_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/alphawolf916_1_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/pupperz_1_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/minest_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/pikaboi_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/thatderpyfox2_orig.png"
+        "src": "https://art.miniaussie.ink/commissions/NicoleBadge.png"
       }
     ]
   },
   {
     "category": "Sketch (Full Body)",
-    "price": "Rough Sketch ● $25\nClean Sketch ● $30\nColored Sketch ● $40\n",
+    "price": "Rough Sketch ● $25\nRough Colored Sketch ● $30\nClean Sketch ● $30\nClean Colored Sketch ● $40\n",
     "description": "+$10(ea) for Anthro\n",
     "examples": [
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/zencollie_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/babdogs_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/ych5_orig.png"
+        "src": "https://art.miniaussie.ink/personal/FRISBEE.png"
       },
       {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/ych3_orig.png"
       },
       {
+        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/ych5_orig.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/WARMUP.png"
+      },
+      {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/wooofe_orig.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/frisbee_orig.png"
+        "src": "https://art.miniaussie.ink/prizes/LilH3roraffleprize.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/wigglejig.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/prizes/CantaloupeDraws.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/zencollie.png"
+      }
+    ]
+  },
+  {
+    "category": "Flat Color (Full Body)",
+    "price": "Flat color ● $60\nFlat color w/ BG scene ● $85\n",
+    "description": "( +$40 per additional character )\n+$15 for Anthro\n",
+    "examples": [
+      {
+        "src": "https://art.miniaussie.ink/commissions/phuckers.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/Arito.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/Zipacno3.png"
+      },
+      {
+        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/minest_orig.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/grossbluecat.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/FoxToshin.png"
+      },
+      {
+        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/thatderpyfox2_orig.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/AlphaWolf916-2.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/sunshinevulpes2.png"
+      }
+    ]
+  },
+  {
+    "category": "Shaded / Fully Rendered",
+    "price": "Feral ● $95+ (+$45 per additional character)\nAnthro ● $125+ (+$50 per additional character)\n",
+    "description": "( Includes BG Scene )\n! NSFW Warning !\n",
+    "examples": [
+      {
+        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/andie-dear2_orig.png"
+      },
+      {
+        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/pikes-place2_orig.png"
+      },
+      {
+        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/kewliehd_orig.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/commissions/zelminaxHD.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/woof.png"
+      },
+      {
+        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/shikaspringhd_orig.png"
       }
     ]
   },
@@ -244,31 +305,6 @@
       },
       {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/christmas-layout_orig.gif"
-      }
-    ]
-  },
-  {
-    "category": "Shaded / Fully Rendered",
-    "price": "Feral ● $95+ (+$45 per additional character)\nAnthro ● $125+ (+$50 per additional character)\n",
-    "description": "( Includes BG Scene )\n! NSFW Warning !\n",
-    "examples": [
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/andie-dear2_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/pikes-place2_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/kewliehd_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/awoo_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/good-morn_orig.png"
-      },
-      {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/shikaspringhd_orig.png"
       }
     ]
   },
