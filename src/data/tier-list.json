@@ -161,7 +161,7 @@
   },
   {
     "category": "Headshot",
-    "price": "Sketch ● $15\nColored Sketch ● $25\nFlat Color ● $35\n",
+    "price": "Sketch ● $15\nColored Sketch ● $25\nFlat Color ● $35\nShaded / Rendered ● $50\n",
     "description": "( detailed backgrounds start at $8+ )\n+$10 for Anthro/Bust\n",
     "examples": [
       {
@@ -263,7 +263,7 @@
   },
   {
     "category": "Shaded / Fully Rendered",
-    "price": "Feral ● $95+ (+$45 per additional character)\nAnthro ● $125+ (+$50 per additional character)\n",
+    "price": "Feral ● $95+ (+$45 per additional character)\nAnthro ● $125+ (+$50 per additional character)\n+$25 to final price for NSFW\n",
     "description": "( Includes BG Scene )\n! NSFW Warning !\n",
     "examples": [
       {
@@ -309,15 +309,61 @@
     ]
   },
   {
-    "category": "Sketch Page",
-    "price": "Starts at $25 per sketch\n",
-    "description": "Black & White or Neutral color-scheme.\nFeral, Bipedal or Toon only.\n",
+    "category": "Character Reference Sheet\n( Feral and Anthro available )\n",
+    "price": "Starts at $70\n(Includes 1 custom full body view + color pallete + skin/blood/pad colors + character info)\n+$15 for mirrored full body view\n+$50 per additional full body view\n+$25 per additional head shot view\n+$25 for ventral pelt view\n(belly view or back view. +$10 for both)\n\nAdd +$25 to final price for Anthro.\n",
+    "description": "======\nCharacter Reference Sheets best represent your characters over all Design & Pattern + a general idea of their likes and dislikes.\nI offer professionally designed Character References in multiple styles ranging from chibi, standard and toony / loose.\nBecause of the range of options offered the final price may be lower or higher than the current example prices display.\nFor exact quotes please send me a message! I'm more than happy to work with you to create a perfect and unique reference of your character!\n",
     "examples": [
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/goldiepage_1_orig.png"
+        "src": "https://art.miniaussie.ink/personal/dalmatiancollie.png"
       },
       {
-        "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/goldie-tf_1_orig.png"
+        "src": "https://art.miniaussie.ink/adoptables/Polaris_Mio.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/adoptables/samoyedadopt.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/coyotedeerfull.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/adoptables/vukureff.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/LAIKA.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/pricklepearott.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/adoptables/Wren.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/adoptables/aidan_mcgeough.png"
+      }
+    ]
+  },
+  {
+    "category": "Character Model Sheet",
+    "price": "Full body\nSet of 3 Sketches ● $85 (+$20 per additional pose)\nSet of 3 Colored Sketches ● $110 (+$25 per additional pose)\nSet of 3 Flat Colored / Detailed ● $145 (+$30 per additional pose)\nSet of 3 Shaded / Rendered ● $185 (+$35 per additional pose)\n\nExpressive Head Shots / Busts\nSet of 3 Sketches ● $45 (+$20 per additional expression)\nSet of 3 Colored Sketches ● $65 (+$20 per additional expression)\nSet of 3 Flat Colored / Detailed ● $85 (+$20 per additional expression)\nSet of 3 Shaded / Rendered ● $105 (+$35 per additional expression)\n\nAction Sequences Available.\nMinimum 3 poses per Model Sheet or Sequence.\nMax 8 poses per Model Sheet or Sequence.\n",
+    "description": "Character Model Sheets ( also known as ''Character Study'' ) best represent your characters design as well as their unique personality! Model sheets are commonly used in the production of professional 2D and 3D animated games, comics and films, helping Creators of all types adopt a better understanding of the character their working with!\n",
+    "examples": [
+      {
+        "src": "https://art.miniaussie.ink/personal/aussie%20adopt.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/Ari.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/bunnybatWIP2.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/goldie.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/goldie%20TF%20HD.png"
+      },
+      {
+        "src": "https://art.miniaussie.ink/personal/stoat1.png"
       }
     ]
   }

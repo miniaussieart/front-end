@@ -30,7 +30,7 @@
           md="12"
         >
           <v-card
-            class="text-center"
+            class="text-center pa-4"
             style="white-space: pre-wrap;"
           >
             <v-card-title
@@ -113,7 +113,7 @@ export default {
 
 <style scoped>
 .price-tier-list {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(42, 25, 34, 0.7);
   border-top: 2px solid black;
 }
 </style>
