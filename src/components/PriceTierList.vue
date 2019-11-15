@@ -15,22 +15,7 @@
           :src="dialogSrc"
           :height="window.height"
           contain
-        >
-          <v-card
-            class="d-flex justify-center mt-6"
-            color="transparent"
-            flat
-          >
-            <v-card
-              class="pa-2"
-              color="rgb(0, 0, 0, 0.7)"
-              outlined
-              hidden
-            >
-              {{ dialogText }}
-            </v-card>
-          </v-card>
-        </v-img>
+        />
       </v-card>
     </v-dialog>
 
@@ -45,7 +30,7 @@
           md="12"
         >
           <v-card
-            class="text-center"
+            class="text-center pa-4"
             style="white-space: pre-wrap;"
           >
             <v-card-title
@@ -58,10 +43,12 @@
 
             <v-card-text
               class="body-1 black--text"
-              v-if="tier.description"
-            >{{ tier.description }}</v-card-text>
+            >
+              <span v-if="tier.description">{{ tier.description }}</span>
+              <span class="v-alert" v-if="tier.alert">{{ tier.alert }}</span>
+            </v-card-text>
 
-            <v-row class="px-2">
+            <v-row class="px-2" align="center">
               <v-col
                 v-for="example in tier.examples"
                 :key="example.id"
@@ -69,10 +56,13 @@
               >
                 <v-card
                   hover
-                  outlined>
+                  outlined
+                >
                   <v-img
                     :src="example.src"
                     @click="openDialog(example)"
+                    max-height="400px"
+                    contain
                   ></v-img>
                 </v-card>
               </v-col>
@@ -115,7 +105,6 @@ export default {
     },
     openDialog(example) {
       this.dialogSrc = example.src;
-      this.dialogText = example.text || 'Chibi Headshot, One Extra Character - $15';
       this.dialog = true;
     },
   },
@@ -124,7 +113,7 @@ export default {
 
 <style scoped>
 .price-tier-list {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(42, 25, 34, 0.7);
   border-top: 2px solid black;
 }
 </style>

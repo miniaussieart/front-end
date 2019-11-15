@@ -3,7 +3,6 @@ import VueRouter from 'vue-router';
 
 // import Home from '../views/Home.vue';
 
-const About = () => import(/* webpackChunkName: "about" */ '../views/About.vue');
 const Prices = () => import(/* webpackChunkName: "prices" */ '../views/Prices.vue');
 
 Vue.use(VueRouter);
@@ -11,13 +10,8 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'prices',
     component: Prices,
-  },
-  {
-    path: '/about',
-    name: 'about',
-    component: About,
   },
   {
     path: '/prices',
