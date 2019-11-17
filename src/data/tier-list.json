@@ -1,7 +1,7 @@
 [
   {
     "category": "Chibi Headshot",
-    "price": "$10 each\n",
+    "price": "$12 each\n",
     "description": null,
     "examples": [
       {
@@ -52,7 +52,7 @@
   },
   {
     "category": "Chibi",
-    "price": "Simple Chibi ● $30\nChibi w/ Background ● $40\n",
+    "price": "Simple Chibi ● $35\nChibi w/ Background ● $45\n",
     "description": "( +$20 per additional character )\n",
     "examples": [
       {
@@ -86,7 +86,7 @@
   },
   {
     "category": "Animated Chibi",
-    "price": "Starts at $40\n",
+    "price": "Starts at $45\n",
     "description": "Transparency available.\n",
     "examples": [
       {
@@ -111,8 +111,8 @@
   },
   {
     "category": "Pet Commission",
-    "price": "Starts at $20\n",
-    "description": "( +$15 per additional pet )\n",
+    "price": "Chibi ● $30 each\n\nHead shot / Portrait\nSketch ● $25\nColored Sketch ● $30\nFlat Color ● $40\nShaded / Rendered ● $60\n\nFull Body\nSketch ● $25\nColored Sketch ● $40\nFlat Color ● $55\nShaded / Rendered ● $75\n",
+    "description": "( additional pet prices vary depending on species )\nAdd background scene +$15\n",
     "examples": [
       {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/newcanvas2_orig.png"
@@ -160,8 +160,8 @@
     ]
   },
   {
-    "category": "Headshot",
-    "price": "Sketch ● $15\nColored Sketch ● $25\nFlat Color ● $35\nShaded / Rendered ● $50\n",
+    "category": "Head shot / Portrait / Bust",
+    "price": "Sketch ● $20\nColored Sketch ● $30\nFlat Color ● $40\nShaded / Rendered ● $55\n",
     "description": "( detailed backgrounds start at $8+ )\n+$10 for Anthro/Bust\n",
     "examples": [
       {
@@ -263,8 +263,9 @@
   },
   {
     "category": "Shaded / Fully Rendered",
-    "price": "Feral ● $95+ (+$45 per additional character)\nAnthro ● $125+ (+$50 per additional character)\n+$25 to final price for NSFW\n",
-    "description": "( Includes BG Scene )\n! NSFW Warning !\n",
+    "price": "Feral ● $100+ (+$45 per additional character)\nAnthro ● $125+ (+$50 per additional character)\n",
+    "description": "( Includes BG Scene )\n",
+    "alert": "! NSFW Warning !",
     "examples": [
       {
         "src": "https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/andie-dear2_orig.png"
@@ -288,7 +289,7 @@
   },
   {
     "category": "Stream Layout",
-    "price": "$100+ each\n",
+    "price": "Starts at $65\n",
     "description": "Available in 1080p & 4K\n.PNG or .GIF\nPicarto / Twitch / YouTube / Livestream\n",
     "examples": [
       {
@@ -310,7 +311,7 @@
   },
   {
     "category": "Character Reference Sheet\n( Feral and Anthro available )\n",
-    "price": "Starts at $70\n(Includes 1 custom full body view + color pallete + skin/blood/pad colors + character info)\n+$15 for mirrored full body view\n+$50 per additional full body view\n+$25 per additional head shot view\n+$25 for ventral pelt view\n(belly view or back view. +$10 for both)\n\nAdd +$25 to final price for Anthro.\n",
+    "price": "Starts at $70\n(Includes 1 custom full body view + color palette + skin/blood/pad colors + character info)\n+$15 for mirrored full body view\n+$50 per additional full body view\n+$25 per additional head shot view\n+$25 for ventral pelt view\n(belly view or back view. +$10 for both)\n\nAdd +$25 to final price for Anthro.\n",
     "description": "======\nCharacter Reference Sheets best represent your characters over all Design & Pattern + a general idea of their likes and dislikes.\nI offer professionally designed Character References in multiple styles ranging from chibi, standard and toony / loose.\nBecause of the range of options offered the final price may be lower or higher than the current example prices display.\nFor exact quotes please send me a message! I'm more than happy to work with you to create a perfect and unique reference of your character!\n",
     "examples": [
       {
@@ -344,8 +345,8 @@
   },
   {
     "category": "Character Model Sheet",
-    "price": "Full body\nSet of 3 Sketches ● $85 (+$20 per additional pose)\nSet of 3 Colored Sketches ● $110 (+$25 per additional pose)\nSet of 3 Flat Colored / Detailed ● $145 (+$30 per additional pose)\nSet of 3 Shaded / Rendered ● $185 (+$35 per additional pose)\n\nExpressive Head Shots / Busts\nSet of 3 Sketches ● $45 (+$20 per additional expression)\nSet of 3 Colored Sketches ● $65 (+$20 per additional expression)\nSet of 3 Flat Colored / Detailed ● $85 (+$20 per additional expression)\nSet of 3 Shaded / Rendered ● $105 (+$35 per additional expression)\n\nAction Sequences Available.\nMinimum 3 poses per Model Sheet or Sequence.\nMax 8 poses per Model Sheet or Sequence.\n",
-    "description": "Character Model Sheets ( also known as ''Character Study'' ) best represent your characters design as well as their unique personality! Model sheets are commonly used in the production of professional 2D and 3D animated games, comics and films, helping Creators of all types adopt a better understanding of the character their working with!\n",
+    "price": "Full body\nSet of 3 Sketches ● $85 (+$20 per additional pose)\nSet of 3 Colored Sketches ● $110 (+$25 per additional pose)\nSet of 3 Flat Colored / Detailed ● $145 (+$30 per additional pose)\nSet of 3 Shaded / Rendered ● $185 (+$35 per additional pose)\n\nExpressive Head Shots / Busts\nSet of 3 Sketches ● $45 (+$20 per additional expression)\nSet of 3 Colored Sketches ● $65 (+$20 per additional expression)\nSet of 3 Flat Colored / Detailed ● $85 (+$25 per additional expression)\nSet of 3 Shaded / Rendered ● $105 (+$35 per additional expression)\n\nAction Sequences Available.\nMinimum 3 poses per Model Sheet or Sequence.\nMax 8 poses per Model Sheet or Sequence.\n",
+    "description": "Character Model Sheets ( also known as ''Character Study'' ) best represent your character's design as well as their unique personality! Model sheets are commonly used in the production of professional 2D and 3D animated games, comics and films, helping Creators of all types adopt a better understanding of the character they're working with!\n",
     "examples": [
       {
         "src": "https://art.miniaussie.ink/personal/aussie%20adopt.png"
