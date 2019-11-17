@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="fill-height text-center">
+  <v-container fluid class="intro fill-height text-center">
     <v-row justify="center">
       <v-col
         col="12" md="8" lg="6"
@@ -16,8 +16,8 @@
             <span class="color-logo-green">t</span>
           </h1>
           <h2 class="headline my-4">●COMMISSION PRICES●</h2>
-          <p class="body-2 intro-alert">{{ alert }}</p>
-          <p class="body-1 custom-style-4">
+          <p class="intro-alert">{{ alert }}</p>
+          <p class="custom-style-4">
             All listed prices are subject to increase depending on Character Complexity.<br>
             Simple backgrounds are
             <span class="color-highlight-green">included</span>
@@ -90,5 +90,9 @@ export default {
 
   .color-highlight-green {
     color: rgb(78, 154, 8);
+  }
+
+  .intro-alert {
+    font-size: 0.8em;
   }
 </style>

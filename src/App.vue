@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style>
+  body {
+    font-size: 18px;
+  }
+
   a {
     text-decoration: none;
   }

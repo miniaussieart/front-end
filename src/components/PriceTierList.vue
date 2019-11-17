@@ -20,7 +20,7 @@
     </v-dialog>
 
     <v-container>
-      <div class="text-center white--text"><h1>Commission Tiers</h1></div>
+      <div class="text-center white--text display-1 my-6">Commission Tiers</div>
 
       <v-row>
         <v-col
@@ -30,23 +30,20 @@
           md="12"
         >
           <v-card
+            dark
             class="text-center pa-4"
             style="white-space: pre-wrap;"
+            color="#444"
           >
             <v-card-title
-              class="justify-center display-1 my-2"
-            >{{ tier.category }}</v-card-title>
-
-            <v-card-subtitle
-              class="body-1 black--text"
-            >{{ tier.price }}</v-card-subtitle>
-
-            <v-card-text
-              class="body-1 black--text"
+              class="tier-title justify-center"
             >
-              <span v-if="tier.description">{{ tier.description }}</span>
-              <span class="v-alert" v-if="tier.alert">{{ tier.alert }}</span>
-            </v-card-text>
+              {{ tier.category }}
+            </v-card-title>
+
+            <p>{{ tier.price }}</p>
+            <p v-if="tier.description">{{ tier.description }}</p>
+            <p class="tier-alert" v-if="tier.alert">{{ tier.alert }}</p>
 
             <v-row class="px-2" align="center">
               <v-col
@@ -112,8 +109,17 @@ export default {
 </script>
 
 <style scoped>
-.price-tier-list {
-  background: rgba(42, 25, 34, 0.7);
-  border-top: 2px solid black;
-}
+  .price-tier-list {
+    border-top: 2px solid black;
+    background-color: #222;
+  }
+
+  .tier-title {
+    font-size: 1.5em;
+  }
+
+  .tier-alert {
+    color: #ef5454;
+    text-shadow: 0 0 8px;
+  }
 </style>

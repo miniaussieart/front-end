@@ -20,6 +20,7 @@ export default {
 
 <style scoped>
   .prices {
+    height: 100vh;
     background-size: cover;
     background-image: url('https://miniaussieart.weebly.com/uploads/1/2/2/6/122646358/good-morn_orig.png');
     background-attachment: fixed;
