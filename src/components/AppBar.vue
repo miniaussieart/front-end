@@ -31,6 +31,7 @@
       dark
       fixed
       inverted-scroll
+      scroll-threshold="500"
       color="#553344"
     >
       <v-app-bar-nav-icon class="d-sm-none" @click.stop="drawer = !drawer" />
