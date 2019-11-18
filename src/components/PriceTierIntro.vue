@@ -12,8 +12,8 @@
           <h1 class="my-4 display-1 font-weight-bold text-uppercase color-logo">
             <span>MiniAussie</span>
             <span class="color-logo-red">A</span>
-            <span class="color-logo-blue">r</span>
-            <span class="color-logo-green">t</span>
+            <span class="color-logo-green">r</span>
+            <span class="color-logo-blue">t</span>
           </h1>
           <h2 class="headline my-4">●COMMISSION PRICES●</h2>
           <p class="intro-alert">{{ alert }}</p>
