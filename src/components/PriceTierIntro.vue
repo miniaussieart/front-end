@@ -15,8 +15,9 @@
             <span class="color-logo-green">r</span>
             <span class="color-logo-blue">t</span>
           </h1>
+          <p>Digital Artist / Character Designer / Concept Artist / Animator</p>
           <h2 class="headline my-4">●COMMISSION PRICES●</h2>
-          <p class="intro-alert">{{ alert }}</p>
+          <p class="intro-alert" v-if="alert">{{ alert }}</p>
           <p class="custom-style-4">
             All listed prices are subject to increase depending on Character Complexity.<br>
             Simple backgrounds are
@@ -65,7 +66,6 @@ import links from '../data/links';
 export default {
   name: 'PriceTierIntro',
   data: () => ({
-    alert: 'Prices will increase January 2020.',
     links,
   }),
 };
